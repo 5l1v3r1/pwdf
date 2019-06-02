@@ -30,7 +30,7 @@ void pwdf(char* location){
 		if ((strcmp(d->d_name, ".") != 0) && (strcmp(d->d_name, "..") != 0)){
 			if ((strcmp(location, ".") == 0) || (strcmp(location, d->d_name)) == 0){
 				ret = 0;
-				printf("\"%s/%s\"\n", cwd, d->d_name);
+				printf("%s/%s\n", cwd, d->d_name);
 			}
 		}
 	}

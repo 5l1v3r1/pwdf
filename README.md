@@ -6,7 +6,7 @@ prints the absolute path of a selected file/folder or all files/folders in the c
 
 
 ## Usage
-Print the absoulte path of all files in the current working directory
+Print the absolute path of all files in the current working directory
 ```
 $ pwdf 
 /home/luke/documents/c/pwdf/pwdf.1p.gz
@@ -22,10 +22,6 @@ $ pwdf makefile
 ```
 
 ## Installation 
-### Arch AUR 
-Comming soon
-
-
 ## Manual Compilation
 ### Installation
 ```
