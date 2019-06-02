@@ -1,0 +1,19 @@
+.TH pwdf 1
+
+.SH pwdf
+pwdf \- Prints the absolute path of a selected file or all files in the current working directory.
+
+.SH SYNOPSIS
+.B pwdf 
+.IR filename ...
+
+.SH DESCRIPTION
+.B pwdf
+prints the absolute path of a selected file/folder or all files/folders in the current working directory. Note that by not specifying a file name/folder name , will print the absolute path of all files/folders in the current working directory.
+
+.SH EXIT STATUS
+.B pwdf will return 0, on succesful execution.
+.B pwdf will return a non zero value based of errno, on unsuccesful execution. 
+
+.SH AUTHOR
+Luke Goddard (https://github.com/Hack-Hut/pwdf)
